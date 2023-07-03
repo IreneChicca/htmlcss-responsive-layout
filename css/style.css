@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Akatab', sans-serif;
 }
 
 img {
@@ -104,6 +104,41 @@ nav li {
 #plan .card:last-child {
     background-color: white;
 
+
+}
+
+
+/* partner */
+
+#partner {
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#partner h1 {
+    word-spacing: .18rem;
+    letter-spacing: .05rem;
+    line-height: 2.5rem;
+    color: #9792e4;
+    font-weight: 900;
+}
+
+#partner .card {
+    background-color: #9792e4;
+    border-radius: 2rem;
+
+
+}
+
+#partner h3 {
+    line-height: 1.8rem;
+    word-spacing: .25rem;
+    padding: 0 2rem;
+    font-weight: lighter;
+    padding-bottom: 1rem;
 
 }
 
