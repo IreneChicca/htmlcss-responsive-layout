@@ -10,12 +10,17 @@ img {
     max-width: 100%;
 }
 
+.bug {
+    border: 1px solid red;
+}
+
 
 /* LAYOUT */
 
 .container {
     max-width: 575px;
 }
+
 
 
 /* SECTIONS */
@@ -38,4 +43,47 @@ nav i {
 
 nav img {
     height: 100%;
+}
+
+
+/*card row */
+
+#cards .col {
+    padding: 1rem;
+}
+
+#cards .card {
+    background-color: #b5ddff;
+
+}
+
+
+/* RESPONSIVE */
+
+
+
+@media screen and (min-width:576px) {
+
+    nav {
+        background-color: red;
+    }
+
+    #cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cards .col:first-child {
+        width: calc(100% / 3 *2);
+    }
+
+    #cards .col {
+        width: calc(100% / 3);
+    }
+
+
+
+
+
+
 }
