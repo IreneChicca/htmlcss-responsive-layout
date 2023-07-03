@@ -42,13 +42,25 @@ a {
     min-height: 150px;
 }
 
+.bg-violet {
+    background-color: #9792e4;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
 
 /* SECTIONS */
 
 /* header */
 
-nav {
+header {
     background-color: #0084fd;
+
+}
+
+nav {
     min-height: 80px;
     display: flex;
     justify-content: space-between;
@@ -119,11 +131,10 @@ nav li {
 }
 
 #partner h1 {
-    word-spacing: .18rem;
-    letter-spacing: .05rem;
-    line-height: 2.5rem;
+
+    line-height: 3.5rem;
     color: #9792e4;
-    font-weight: 900;
+
 }
 
 #partner .card {
@@ -274,6 +285,9 @@ nav li {
 
     /*header*/
 
+    .container {
+        max-width: 1000px;
+    }
 
     nav {
         background-color: red;
@@ -359,10 +373,20 @@ nav li {
     }
 
 
+    /*about us*/
+
+    #about-us {
+        display: flex;
+    }
+
+    #about-us div:first-child {
+        width: calc(100% / 3*2)
+    }
 
 
-
-
+    #about-us div:last-child {
+        width: calc(100% / 3)
+    }
 
 
 
