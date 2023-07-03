@@ -161,7 +161,7 @@ nav li {
 
 #partner h3 span:first-child {
     display: inline-block;
-    transform: rotate(180deg) translate(3px, -15px);
+    transform: rotate(180deg) translate(5px, -15px);
 }
 
 #partner span {
@@ -182,9 +182,6 @@ nav li {
 
 
 @media screen and (min-width:576px) {
-
-
-
 
     /*header*/
 
@@ -247,9 +244,17 @@ nav li {
     }
 
 
+    /*partner*/
 
+    #partner .card {
+        flex-direction: row;
+        padding: 2rem 1rem;
+        text-align: start;
+    }
 
-
+    #partner .card p {
+        padding-left: 2rem;
+    }
 
 
 
