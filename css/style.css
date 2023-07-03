@@ -204,6 +204,65 @@ nav li {
 }
 
 
+/*about us*/
+
+#about-us {
+    padding: 2rem;
+}
+
+#about-us h1,
+#about-us h2 {
+    color: #9792e4;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+
+
+#about-us p {
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+#about-us img {
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+
+}
+
+
+#about-us span {
+    color: #9792e4;
+    font-size: 8rem;
+    display: inline-block;
+    transform: rotate(180deg) translate(70px, 80px);
+    font-weight: 900;
+}
+
+#about-us button {
+    border: none;
+    background-color: #9792e4;
+    border-radius: 2rem;
+}
+
+#about-us button a {
+    color: white;
+    padding: .5rem 1rem;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -298,6 +357,44 @@ nav li {
     #benefits .card {
         width: calc((100% - 4rem) / 3);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /*chiusura media q*/
