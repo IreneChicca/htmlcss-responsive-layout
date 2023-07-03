@@ -177,6 +177,36 @@ nav li {
     font-size: 1.1rem;
 }
 
+
+/* benefits */
+
+#benefits {
+    background-color: #9792e4;
+    padding: 2rem;
+}
+
+#benefits h1 {
+    color: white;
+    text-align: center;
+
+}
+
+#benefits .row {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+#benefits .card {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+
+
+
+
 /* RESPONSIVE */
 
 
