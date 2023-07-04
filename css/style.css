@@ -385,9 +385,13 @@ nav li {
 
 @media screen and (min-width:576px) {
 
+    /*header*/
+
     nav {
         background-color: greenyellow;
     }
+
+    /*intro*/
 
     #intro {
         display: flex;
@@ -402,7 +406,11 @@ nav li {
         width: calc((100%)/ 3);
     }
 
+    /*plan*/
 
+    #plan h2 {
+        font-size: 3rem;
+    }
 
 
 
