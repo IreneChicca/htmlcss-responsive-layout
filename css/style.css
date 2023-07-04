@@ -459,9 +459,18 @@ nav li {
     }
 
 
+    /*benefits*/
+
+    #benefits .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
 
 
-
+    #benefits .card {
+        width: calc(50% - 1rem);
+    }
 
 
 
@@ -546,7 +555,7 @@ nav li {
     }
 
 
-    /*partner*/
+    /*partner - same tablet*/
 
 
 
