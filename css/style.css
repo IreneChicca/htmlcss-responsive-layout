@@ -447,6 +447,33 @@ nav li {
     text-decoration: underline;
 }
 
+
+/*footer*/
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+footer a {
+    color: #9792e4;
+    text-decoration: underline;
+}
+
+footer .container>* {
+    padding: 2.5rem 0;
+}
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE */
 
 
@@ -672,7 +699,9 @@ nav li {
         display: inline-block;
     }
 
+    /*get started - same tablet*/
 
+    /*footer*/
 
 
 
