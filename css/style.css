@@ -400,14 +400,52 @@ nav li {
 
 
 
+/*get started*/
 
 
+#get-started {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: white;
+}
+
+#get-started h1 {
+    font-size: 4rem;
+    color: #fdc15f;
+}
+
+#get-started h2 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+#get-started p {
+    line-height: 2rem;
+}
+
+#get-started button {
+    padding: 3rem;
+}
+
+#get-started button a {
+    color: #9792e4;
+    background-color: white;
+    padding: 1rem 5rem;
+    border-radius: 3rem;
+    font-weight: 800;
+    letter-spacing: .2rem;
+}
 
 
+#get-started address {
+    font-style: normal;
+}
 
-
-
-
+#get-started address a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: underline;
+}
 
 /* RESPONSIVE */
 
@@ -476,6 +514,25 @@ nav li {
     /*about us*/
 
 
+    #about-us {
+        display: flex;
+        gap: 4rem;
+    }
+
+    #about-us div:first-child {
+        width: calc(100% / 3*2)
+    }
+
+
+    #about-us div:last-child {
+        width: calc(100% / 3)
+    }
+
+
+    #about-us span {
+        transform: rotate(180deg) translate(-150px, 230px);
+        display: none;
+    }
 
 }
 
@@ -591,7 +648,10 @@ nav li {
         width: calc(100% / 3)
     }
 
-
+    #about-us span {
+        transform: rotate(180deg) translate(70px, 80px);
+        display: inline-block;
+    }
 
 
 
