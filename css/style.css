@@ -346,6 +346,8 @@ nav li {
 
 
 
+/* tablet************************************************************************************ */
+
 @media screen and (min-width:576px) {
 
     nav {
@@ -377,7 +379,7 @@ nav li {
 
 
 
-
+/* desktop******************************************************************************* */
 
 
 @media screen and (min-width:992px) {
@@ -430,6 +432,11 @@ nav li {
 
     #intro .col {
         width: calc(100% / 3);
+    }
+
+    #intro .col:first-child .card {
+        display: flex;
+        padding-bottom: 0;
     }
 
 
