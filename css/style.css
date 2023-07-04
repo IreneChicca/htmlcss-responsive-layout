@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Akatab', sans-serif;
+    color: #5a6e7f;
 }
 
 img {
@@ -18,6 +19,18 @@ img {
     border: 1px solid red;
 }
 
+
+button {
+    background-color: transparent;
+    border: none;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: .9rem;
+
+}
 
 /* LAYOUT */
 
@@ -32,18 +45,13 @@ li {
 
 }
 
-a {
-    text-decoration: none;
-    font-size: .9rem;
-
-}
-
 .card {
     min-height: 150px;
 }
 
 .bg-violet {
     background-color: #9792e4;
+
 }
 
 h1 {
@@ -66,6 +74,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+
 }
 
 nav i {
@@ -94,9 +103,64 @@ nav li {
 #intro .card {
     background-color: #b5ddff;
     border-radius: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
 }
 
 
+#intro h3 {
+    color: #0084fd;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+#intro i {
+    color: #0084fd;
+    font-size: 5rem;
+    padding-bottom: 2rem;
+
+}
+
+#intro p {
+    line-height: 1.6rem;
+    font-weight: 700;
+}
+
+
+#intro .col:first-child .card {
+    text-align: start;
+    padding-bottom: 0;
+}
+
+#intro .col:first-child h3 {
+    text-align: start;
+
+}
+
+
+#intro .col:first-child p {
+    padding-bottom: 2rem;
+}
+
+#intro .col:first-child button a {
+    background-color: #0084fd;
+    color: white;
+    padding: .6rem 3rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    letter-spacing: .15rem;
+}
+
+#intro .fa-apple {
+    color: white;
+    font-size: 1rem;
+}
+
+#intro img {
+    display: block;
+}
 
 
 /* plan */
@@ -161,7 +225,7 @@ nav li {
 }
 
 #partner .card img {
-    width: 250px;
+    width: 200px;
     aspect-ratio: 1/1;
     border-radius: 50%;
 }
@@ -283,6 +347,35 @@ nav li {
 
 @media screen and (min-width:576px) {
 
+    nav {
+        background-color: greenyellow;
+    }
+
+    #intro .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
     /*header*/
 
     .container {
@@ -317,7 +410,7 @@ nav li {
     }
 
 
-    /*cards*/
+    /*intro*/
 
 
     #intro {
