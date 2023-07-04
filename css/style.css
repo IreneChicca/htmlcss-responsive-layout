@@ -414,6 +414,22 @@ nav li {
     }
 
 
+    /*partner*/
+
+    #partner .card {
+        flex-direction: row;
+        padding: 2rem 1rem;
+        text-align: start;
+    }
+
+    #partner .card p {
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+
+
+
+
 
 
 
@@ -501,15 +517,7 @@ nav li {
 
     /*partner*/
 
-    #partner .card {
-        flex-direction: row;
-        padding: 2rem 1rem;
-        text-align: start;
-    }
 
-    #partner .card p {
-        padding-left: 2rem;
-    }
 
     /*benefits*/
 
