@@ -313,7 +313,38 @@ nav li {
 #benefits .card {
     background-color: white;
     border-radius: 2rem;
+    padding: 2rem;
+    text-align: start;
 }
+
+#benefits .card h1 {
+    color: #9792e4;
+    text-align: start;
+    font-size: 4rem;
+}
+
+#benefits .card h2 {
+    color: #9792e4;
+    padding: 1rem 0;
+}
+
+#benefits .card p {
+    line-height: 1.6rem;
+}
+
+#benefits .card button {
+    padding: 2rem 0 1rem;
+}
+
+#benefits .card button a {
+    background-color: #9792e4;
+    padding: .5rem 2.8rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 800;
+}
+
+
 
 
 /*about us*/
