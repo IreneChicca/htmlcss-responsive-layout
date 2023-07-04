@@ -572,12 +572,7 @@ footer .container>* {
     }
 
 
-
-
-
-
-
-
+    /*footer - same mobile*/
 
 
 }
@@ -703,6 +698,9 @@ footer .container>* {
 
     /*footer*/
 
+    footer>* {
+        width: 60%;
+    }
 
 
 
