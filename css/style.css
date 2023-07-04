@@ -59,12 +59,20 @@ h1 {
     font-size: 3rem;
 }
 
+
+main {
+    padding-top: 4rem;
+}
+
 /* SECTIONS */
 
 /* header */
 
 header {
     background-color: #0084fd;
+    position: fixed;
+    left: 0;
+    right: 0;
 
 }
 
@@ -293,7 +301,7 @@ nav li {
 /* benefits */
 
 #benefits {
-    background-color: #9792e4;
+
     padding: 2rem;
 }
 
@@ -484,9 +492,6 @@ footer .container>* {
 
     /*header*/
 
-    nav {
-        background-color: greenyellow;
-    }
 
     /*intro*/
 
@@ -558,7 +563,7 @@ footer .container>* {
 
     #about-us span {
         transform: rotate(180deg) translate(-150px, 230px);
-        display: none;
+
     }
 
 
@@ -588,12 +593,10 @@ footer .container>* {
     /*header*/
 
     .container {
-        max-width: 1000px;
+        max-width: 1200px;
     }
 
-    nav {
-        background-color: red;
-    }
+
 
     .fa-bars {
         display: none;
@@ -701,31 +704,6 @@ footer .container>* {
     footer>* {
         width: 60%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
