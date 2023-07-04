@@ -350,7 +350,7 @@ nav li {
 /*about us*/
 
 #about-us {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 #about-us h1,
@@ -471,6 +471,9 @@ nav li {
     #benefits .card {
         width: calc(50% - 1rem);
     }
+
+
+    /*about us*/
 
 
 
